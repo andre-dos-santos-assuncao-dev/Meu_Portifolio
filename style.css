@@ -77,7 +77,7 @@ body {
     padding: 50px 0;
 }
 
-.sobre img {
+#foto {
     width: 300px;
     height: auto;
     border-radius: 10px;
@@ -95,5 +95,33 @@ body {
     line-height: 1.4;
     text-align: justify;
     margin-right: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
+
+.competencias {
+    list-style-type: none;
+    display: flex;
+}
+
+.competencias li {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 20px;
+    transition: 0.5s ease;
+}
+
+.competencias li:hover {
+    transform: scale(1.2);
+}    
+
+.competencias a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.competencias img {
+    width: 100%;
+    height: 100%;
+}
+    
