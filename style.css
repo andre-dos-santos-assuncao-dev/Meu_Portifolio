@@ -20,14 +20,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px 0;
-    font-size: 20px;
+    padding: 1.7vw 0;
+    font-size: 1.5vw;
     list-style-type: none;
 }
 
 .menu hr {
-    width: 0.2px;
-    height: 25px;
+    width: 0.01vw;
+    height: 1.7vw;
     background-color: #E5E7EB;
 }
 
@@ -45,26 +45,26 @@ body {
 .cabecalho {
     text-align: center;
     color: #E5E7EB;
-    padding: 90px 0;
+    padding: 8vw 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .cabecalho h1 {
-    font-size: 45px;
+    font-size: 3vw;
     font-weight: bold;
-    margin-top: 60px;
-    margin-bottom: 15px;
+    margin-top: 3vw;
+    margin-bottom: 1.5vw;
 }
 
 .cabecalho p {
-    font-size: 18px;
+    font-size: 1.5vw;
 }
 
 .linha {
     border: 0.5px solid #E5E7EB;
-    margin: 0 100px
+    margin: 0 10vw
 }
 
 #sobre {
@@ -75,15 +75,15 @@ body {
 .sobre {
     display: flex;
     color: #E5E7EB;
-    padding: 50px 0;
+    padding: 5vw 0;
 }
 
 #foto {
-    width: 300px;
-    height: auto;
+    width: 22%;
+    height: 100%;
     border-radius: 10px;
-    margin-left: 100px;
-    margin-right: 50px;
+    margin-left: 10vw;
+    margin-right: 4vw;
     transition: 0.3s ease;
 }
 
@@ -93,16 +93,16 @@ body {
 }
 
 .sobre h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 2.5vw;
+    margin-bottom: 1vw;
 }
 
 .sobre p {
-    font-size: 16px;
+    font-size: 1.4vw;
     line-height: 1.4;
     text-align: justify;
-    margin-right: 100px;
-    margin-bottom: 25px;
+    margin-right: 10vw;
+    margin-bottom: 2vw;
 }
 
 .competencias {
@@ -111,9 +111,9 @@ body {
 }
 
 .competencias li {
-    max-width: 50px;
-    max-height: 50px;
-    margin-right: 20px;
+    max-width: 4vw;
+    max-height: 4vw;
+    margin-right: 1.5vw;
     transition: 0.5s ease;
 }
 
@@ -139,20 +139,20 @@ body {
     
 .projetos h2 {
     color: #E5E7EB;
-    margin: 50px 0 50px 80px;
-    font-size: 30px;
+    margin: 4vw 0 4vw 6vw;
+    font-size: 2.5vw;
 }
 
 .caixa_projetos {
     display: flex;
     justify-content: space-between;
-    margin: 0 100px;
+    margin: 0 8vw;
 }
 
 .projeto {
     max-width: 25%;
     max-height: 25vw;
-    margin-bottom: 70px;
+    margin-bottom: 5vw;
     transition: 0.3s ease;
 }
 
@@ -174,8 +174,9 @@ body {
 
 .projeto h3 {
     color: #E5E7EB;
-    margin-bottom: 20px;
+    margin-bottom: 1.5vw;
     text-align: center;
+    font-size: 1.5vw;
 }
 
 .botoes_projetos {
@@ -189,7 +190,7 @@ body {
     border: none;
     padding: 0.8vw 1vw;
     font-size: 1.2vw;
-    margin-top: 20px;
+    margin-top: 1.5vw;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s ease;
@@ -208,24 +209,25 @@ body {
 
 #contato h2 {
     color: #E5E7EB;
-    margin: 50px 0 50px 80px;
-    font-size: 30px;
+    margin: 4vw 0 4vw 6vw;
+    font-size: 2.5vw;
 }
 
 .caixa_contatos {   
-    margin: 0 100px 70px 100px;
+    margin: 0 8vw 5vw 8vw;
 }
 
 .contato {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.5vw;
     color: #E5E7EB;
+    font-size: 1.5vw;
 }
 
 .contato img {
-    width: 40px;
-    height: 40px;
+    width: 3.5vw;
+    height: 3.5vw;
     margin-right: 20px;
     transition: 0.3s ease;
 }
@@ -235,5 +237,5 @@ body {
 }
 
 #ultima_linha {
-    margin-bottom: 50px;
+    margin-bottom: 4vw;
 }
