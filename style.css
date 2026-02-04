@@ -1,7 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -16,7 +21,8 @@ body {
 }
 
 .menu {
-    background-color: #111A2E;
+    background-color: rgba(16, 24, 46, 0.8);
+    backdrop-filter: blur(10px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,12 +40,28 @@ body {
 .menu a {
     color: #E5E7EB;
     text-decoration: none;
-    padding: 28px 25px;    
+    position: relative;
+    padding: 25px 28px;    
+    transition: 0.5s ease;
+}
+
+.menu a::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    position: absolute;
+    bottom: 13px;
+    left: 20%;
+    background: linear-gradient(to right, #3B82F6, #1D4ED8);
     transition: 0.5s ease;
 }
 
 .menu a:hover {
-    color: #1D4ED8;
+    color: #3061e6;
+}
+
+.menu a:hover::after {
+    width: 60%;
 }
 
 .cabecalho {
