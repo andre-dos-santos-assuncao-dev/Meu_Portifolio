@@ -177,16 +177,22 @@ body {
     grid-template-columns: auto auto auto;
     justify-items: center;
     margin: 0px 50px;
+    max-height: 360px;
 }
 
-.projeto {
+.projeto, .outros_projetos {
     max-width: 280px;   
     max-height: 300px;
     margin-bottom: 60px;
     transition: 0.3s ease;
 }
 
-.projeto img {
+.outros_projetos {
+    max-height: 0;
+    display: none;
+}
+
+.projeto img, .outros_projetos img {      
     width: 100%;
     height: 60%;
     border-radius: 15px;
@@ -194,16 +200,16 @@ body {
     transition: 0.3s ease;
 }
 
-.projeto img:hover {
+.projeto img:hover, .outros_projetos img:hover {
     filter: brightness(1.05);
     transform: scale(1.02);
 }
 
-.projeto:hover {
+.projeto:hover, .outros_projetos:hover {
     transform: scale(1.015);
 }
 
-.projeto h3 {
+.projeto h3, .outros_projetos h3 {
     color: #E5E7EB;
     margin-bottom: 20px;
     text-align: center;
@@ -214,7 +220,7 @@ body {
     justify-content: space-around;
 }
 
-.projeto button {
+.projeto button, .outros_projetos button {
     background-color: #1D4ED8;
     color: #E5E7EB;
     border: none;
@@ -226,19 +232,15 @@ body {
     transition: 0.3s ease;
 }
 
-.projeto button:hover {
+.projeto button:hover, .outros_projetos button:hover {
     background-color: #4c85ff;
     transform: scale(1.02);
 }
 
-.projeto button:active {
+.projeto button:active, .outros_projetos button:active {
     transition: 0.1s ease;
     background-color: #4374df;
     transform: scale(0.98);
-}
-
-#outros_projetos {
-    display: none;
 }
 
 .botao_ver_mais {
@@ -247,7 +249,7 @@ body {
     border: none;
     cursor: pointer;
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     align-self: center;
     transition: 0.3s ease;
 }
