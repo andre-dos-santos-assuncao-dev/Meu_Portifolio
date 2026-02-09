@@ -78,12 +78,10 @@ body {
     font-weight: bold;
     margin-top: 60px;
     margin-bottom: 15px;
-    text-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
 }
 
 .cabecalho p {
     font-size: 18px;
-    text-shadow: 0 0 15px rgba(79, 70, 229, 0.4);
 }
 
 .linha {
@@ -158,27 +156,33 @@ body {
     box-shadow: 0 0 12px rgba(79, 70, 229, 0.3);
 }
 
-#projetos {
+#projetos {                                                                                                     
     position: relative;  
     top: -110px;                  
 }
-    
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+}
+
 .projetos h2 {
-    color: #E5E7EB;
+    color: #E5E7EB;                                                             
     margin: 50px 0 50px 80px;
     font-size: 30px;
 }
 
 .caixa_projetos {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    margin: 0px 50px;
 }
 
 .projeto {
-    max-width: 280px;
+    max-width: 280px;   
     max-height: 300px;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     transition: 0.3s ease;
 }
 
@@ -231,6 +235,25 @@ body {
     transition: 0.1s ease;
     background-color: #4374df;
     transform: scale(0.98);
+}
+
+#outros_projetos {
+    display: none;
+}
+
+.botao_ver_mais {
+    background: none;
+    color: #E5E7EB;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 30px;
+    align-self: center;
+    transition: 0.3s ease;
+}
+
+.botao_ver_mais:hover {
+    color: #3976fa;
 }
 
 #contato h2 {
