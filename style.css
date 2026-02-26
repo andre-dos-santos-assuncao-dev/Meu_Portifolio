@@ -313,6 +313,10 @@ body {
     transform: scale(1.15);
 }
 
+.contato a {
+    color: #E5E7EB;
+}
+
 #ultima_linha {
     margin-bottom: 70px;
 }
